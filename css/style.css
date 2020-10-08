@@ -1,0 +1,14 @@
+/*gives the main body its color*/
+body{
+  background-color: #ff6347;
+}
+#counter{
+  width: :100%;
+  background-color:white;
+  color:black;
+  padding:10px;
+  margin: 15px;
+}
+#newsletter-select{
+
+}

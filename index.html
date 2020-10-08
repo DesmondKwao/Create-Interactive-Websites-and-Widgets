@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+<div id="counter">
+  $0
+</div>
+<div id="user-entry">
+  <form id='form-send' method="post" action="data/formsend.json">
+    <b/>
+  <label>Name</label>
+    <input name="name" type="text"></input> <!--this declare the type of input-->
+  <br/>     <!--break the line to the next line-->
+  <label>Email</label>
+    <input name ="email" type="text"></input>
+  <br/>
+  <label>Newsletter</label>
+  <input name="signUp" id="newsletter-checkbox " checked type="checkbox"></input>
+  <br/>
+  <select name= "newsletterSelect"id ="newsletter-select">
+    <option>Select</option>
+    <option selected> Weekly</option>
+    <option>Monthly</option>
+  </select>
+  <br/>
+  <button id="send-form">Send</button>
+</form>
+<div id="feedback"></div>
+</div>
+  </body>
+</html>
