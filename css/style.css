@@ -3,12 +3,39 @@ body{
   background-color: #ff6347;
 }
 #counter{
-  width: :100%;
   background-color:white;
   color:black;
-  padding:10px;
+  padding:12px;
   margin: 15px;
 }
 #newsletter-select{
 
+}
+#design{
+  background: black
+  padding: 12px;
+  height: 100%;
+  margin: 12px;
+}
+/* for the dimension and styling of the display card*/
+.shop{
+  width:250px;
+  background-color: white;
+  padding: 10px;
+  float: left;  /*this arrange cards from left to right*/
+  margin: 5px;
+}
+.shop img{
+  width:100%;
+}
+.shop .name{
+  font-size: 30px;
+}
+.shop .rate{
+  margin-top:8px;
+  margin-bottom: 8px;
+}
+
+.shop .more-info {
+  display: none;
 }

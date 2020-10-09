@@ -5,17 +5,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+
 <div id="counter">
   $0
 </div>
 <div id="user-entry">
   <form id='form-send' method="post" action="data/formsend.json">
-    <b/>
   <label>Name</label>
-    <input name="name" type="text"></input> <!--this declare the type of input-->
+    <input name="name" type="text" placeholder="Enter your name"></input> <!--this declare the type of input-->
   <br/>     <!--break the line to the next line-->
   <label>Email</label>
-    <input name ="email" type="text"></input>
+    <input name ="email" type="text" placeholder="Enter your E-mail address"></input>
   <br/>
   <label>Newsletter</label>
   <input name="signUp" id="newsletter-checkbox " checked type="checkbox"></input>
@@ -29,6 +29,31 @@
   <button id="send-form">Send</button>
 </form>
 <div id="feedback"></div>
+</div>
+<br/>
+<div id="main-design">
+  <input id="new-card" type="text" placeholder="Enter Location"></input>
+  <button id="create-card">Add</button>
+</div>
+<div id = design>
+  <div class="shop">
+  <div class="name">GHANA</div>
+  <img src="assets/ghana.jpg"></img>
+  <div class="description">Spanning a land mass of 238,535 km2 (92,099 sq mi),
+    Ghana is bordered by the Ivory Coast in the west,
+    Burkina Faso in the north, Togo in the east,
+  </div>
+  <br/>
+  <div class="rate">Rate: $499.00</div>
+  <br/>
+  <button class="cart-add" type="button" name="button">Add to Cart</button>
+  <button class="cart-remove"  type="button" name="button">Remove from Cart</button>
+  <br/>
+  <a class="more-info-link" href="#">More info</a>
+  <div class="more-info">and the Gulf of Guinea and Atlantic Ocean in the south.
+  Ghana means "Warrior King" in the Soninke language.
+  </div>
+  </div>
 </div>
   </body>
 </html>
