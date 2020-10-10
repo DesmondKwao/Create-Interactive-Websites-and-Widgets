@@ -9,7 +9,7 @@ body{
   margin: 15px;
 }
 #newsletter-select{
-
+display: inline-flex;
 }
 #design{
   background: black
@@ -30,6 +30,7 @@ body{
 }
 .shop .name{
   font-size: 30px;
+  font-family: serif;
 }
 .shop .rate{
   margin-top:8px;

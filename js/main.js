@@ -53,9 +53,7 @@ let data=  { form: $(this).serialze() };
    data: data
  })
  .done(function(response){
-   $('feedback').text(response.message)
-
-
+   $('#feedback').text(response.message);
 });
 });
 });
